@@ -1,11 +1,16 @@
 [project]
 name = "shopify-csv-change-guard"
-version = "0.2.0"
+version = "0.3.0"
 description = "Local preflight that compares an original Shopify product export with an edited CSV before import."
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{name = "sticattox"}]
+keywords = ["shopify", "csv", "catalog", "preflight", "diff"]
+
+[project.urls]
+Homepage = "https://github.com/sticattox/shopify-csv-change-guard"
+Issues = "https://github.com/sticattox/shopify-csv-change-guard/issues"
 
 [project.scripts]
 shopify-change-guard = "shopify_change_guard.cli:main"

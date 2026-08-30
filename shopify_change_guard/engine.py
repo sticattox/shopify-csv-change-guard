@@ -1,4 +1,4 @@
-from .engine_models import Finding, GuardResult
 from .engine_compare import compare_csvs
+from .engine_models import CompareOptions, Finding, GuardResult
 
-__all__ = ["Finding", "GuardResult", "compare_csvs"]
+__all__ = ["Finding", "GuardResult", "CompareOptions", "compare_csvs"]

@@ -1,6 +1,6 @@
 """Shopify CSV Change Guard — local preflight for product catalog imports."""
 
-from .engine import compare_csvs, GuardResult
+from .engine import CompareOptions, GuardResult, compare_csvs
 
-__all__ = ["compare_csvs", "GuardResult"]
-__version__ = "0.2.0"
+__all__ = ["compare_csvs", "GuardResult", "CompareOptions"]
+__version__ = "0.3.0"
