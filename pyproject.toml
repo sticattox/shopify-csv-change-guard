@@ -1,0 +1,14 @@
+[project]
+name = "shopify-csv-change-guard"
+version = "0.2.0"
+description = "Local preflight that compares an original Shopify product export with an edited CSV before import."
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "sticattox"}]
+
+[project.scripts]
+shopify-change-guard = "shopify_change_guard.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["shopify_change_guard*"]
